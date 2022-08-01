@@ -1,3 +1,4 @@
+MSYS_NO_PATHCONV=1 \
 docker run -it \
 -e PORT=3000 \
 -p 3000:3000 \
